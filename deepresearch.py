@@ -47,7 +47,7 @@ from tools import (
 # from google.adk.artifacts import InMemoryArtifactService, ArtifactService 
 
 # --- Configuration (Replace with your actual keys and preferences) ---
-os.environ["GOOGLE_API_KEY"] = "AIzaSyD0miABpu59h8h-aGk4bkAm9S7jHYcE5os" # Replace
+os.environ["GOOGLE_API_KEY"] = "" # Replace
 os.environ["GOOGLE_GENAI_USE_VERTEXAI"] = "False"
 MODEL_GEMINI_FLASH = "gemini-2.5-pro-preview-06-05"
 
