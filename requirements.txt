@@ -1,0 +1,27 @@
+# Core Python packages
+asyncio  # Built-in, but listed for clarity
+os  # Built-in
+time  # Built-in
+json  # Built-in
+typing  # Built-in
+re  # Built-in
+logging  # Built-in
+
+# Third-party packages
+requests>=2.31.0
+vertexai>=1.38.0
+
+# Google ADK packages
+google-adk-agents>=0.1.0
+google-adk-models>=0.1.0
+google-adk-sessions>=0.1.0
+google-adk-runners>=0.1.0
+google-adk-events>=0.1.0
+google-adk-tools>=0.1.0
+google-genai>=0.1.0
+
+# Additional dependencies that might be needed
+google-cloud-aiplatform>=1.34.0
+google-auth>=2.17.0
+google-auth-oauthlib>=1.0.0
+google-auth-httplib2>=0.2.0
