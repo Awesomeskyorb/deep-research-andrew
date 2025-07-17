@@ -4,7 +4,7 @@ from typing import Dict, Any, Optional
 from google.adk.tools import ToolContext
 
 # Financial Modeling Prep API Configuration
-FMP_API_KEY = "h5bDd4wwF9CeBjtcKdTkh7IwnOEC8jPT"
+FMP_API_KEY = ""
 FMP_BASE_URL = "https://financialmodelingprep.com/stable"
 
 def company_profile_tool(symbol: str, tool_context: ToolContext) -> str:
